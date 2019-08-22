@@ -8,6 +8,7 @@ import { HomeCarouselComponent } from './home-carousel/home-carousel.component';
 import { ClientCardsComponent } from './client-cards/client-cards.component';
 import { MissionVisionComponent } from './mission-vision/mission-vision.component';
 import { FooterComponent } from './footer/footer.component';
+import { VehicleHomeListPageComponent } from './vehicle-home-list-page/vehicle-home-list-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './footer/footer.component';
     HomeCarouselComponent,
     ClientCardsComponent,
     MissionVisionComponent,
-    FooterComponent
+    FooterComponent,
+    VehicleHomeListPageComponent
   ],
   imports: [
     BrowserModule,
