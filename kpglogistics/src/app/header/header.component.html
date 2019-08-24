@@ -7,16 +7,16 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" [routerLink]="['/home']">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/About-us">About us</a>
+        <a class="nav-link" [routerLink]="['/about-us']">About us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Blog</a>
+        <a class="nav-link" href="#">Services</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/contact-us">Contact us</a>
+        <a class="nav-link" [routerLink]="['/contact-us']">Contact us</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -25,6 +25,3 @@
     </form>
   </div>
 </nav>
-
-
-<app-home-carousel></app-home-carousel>

@@ -1,10 +1,18 @@
+
 .img-carosel-size{
     height: 33.8rem;
+    opacity: .5;
 }
 .padding-1-10{
     padding: 0 10%;
 }
-
+.slide {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  }
+  .carousel-caption{
+    padding-bottom: 6rem;
+    color: #dee2e6 !important;
+}
 @media (min-width:768px) and (max-width: 1024px){
     .img-carosel-size{
         height: 25.8rem;
@@ -13,9 +21,13 @@
 
 @media (max-width: 768px){
     .img-carosel-size{
-        height: 20.8rem;
+        height: 22.8rem;
     }
     .padding-1-10{
         padding: 0;
+    }
+    .carousel-caption{
+        padding-bottom: .5rem;
+        color: #dee2e6 !important;
     }
 }
