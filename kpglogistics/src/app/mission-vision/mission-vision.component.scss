@@ -1,0 +1,36 @@
+.bg-image-card{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #007bff80),url(../../assets/vision.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--white);
+    background-position: center;
+    height: calc(100vh - 100px);
+}
+.bg-image-card-1{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #007bff80),url(../../assets/logistics-mission.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--white);
+    background-position: center;
+    height: calc(50vh - 61px);
+}
+.card{
+   border: none;
+}
+.bg-color{
+    background-color: #4cc5f2;
+}
+
+.margin-10{
+    margin: 1.5rem 0;
+}
+
+@media (max-width:768px){
+    .bg-image-card{        
+        height: auto;
+        margin: 1.5rem 0;
+    }
+    .bg-image-card-1{
+        height: auto;
+    }
+}
