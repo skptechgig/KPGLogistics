@@ -10,6 +10,7 @@ import { MissionVisionComponent } from './mission-vision/mission-vision.componen
 import { FooterComponent } from './footer/footer.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { VehicleHomeListPageComponent } from './vehicle-home-list-page/vehicle-home-list-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     MissionVisionComponent,
     FooterComponent,
     AboutUsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    VehicleHomeListPageComponent
   ],
   imports: [
     BrowserModule,
