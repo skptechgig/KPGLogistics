@@ -1,6 +1,9 @@
 .img-carosel-size{
     height: 33.8rem;
 }
+.padding-1-10{
+    padding: 0 10%;
+}
 
 @media (min-width:768px) and (max-width: 1024px){
     .img-carosel-size{
@@ -11,5 +14,8 @@
 @media (max-width: 768px){
     .img-carosel-size{
         height: 20.8rem;
+    }
+    .padding-1-10{
+        padding: 0;
     }
 }
