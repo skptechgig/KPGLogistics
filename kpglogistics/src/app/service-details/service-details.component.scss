@@ -1,0 +1,16 @@
+.margin-top-2{
+    margin-top: 4.5rem;
+}
+.padding-1-10{
+    padding: 0 10%;
+}
+.text-size{
+    line-height: 3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width:768px){
+    .padding-1-10{
+        padding: 0;
+    } 
+}

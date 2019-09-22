@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { VehicleHomeListPageComponent } from './vehicle-home-list-page/vehicle-home-list-page.component';
+import { ServiceDetailsComponent } from './service-details/service-details.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { VehicleHomeListPageComponent } from './vehicle-home-list-page/vehicle-h
     FooterComponent,
     AboutUsComponent,
     ContactUsComponent,
-    VehicleHomeListPageComponent
+    VehicleHomeListPageComponent,
+    ServiceDetailsComponent
   ],
   imports: [
     BrowserModule,

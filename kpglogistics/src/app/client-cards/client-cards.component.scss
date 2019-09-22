@@ -1,5 +1,60 @@
+
+
+/* .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+} */
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  background-color: #007bff!important;
+}
+.img-fit-card{
+  padding-top:12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+.card{
+  height: 30vh;
+  text-align: center;
+}
+
+/* map */
+.map-margin{
+  margin: 2rem 0;
+}
+.map-responsive{
+  overflow:hidden;
+  padding:18%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
 @media (max-width:768px){
     .card-client{
         margin-bottom: 2rem;
     }
+    .carousel-control-prev,
+    .carousel-control-next{
+       bottom: 0;
+    }
+    .map-margin{
+      margin: 0rem 0;
+    }
+    .map-responsive{
+      padding:40%;
+    }
 }
+
