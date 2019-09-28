@@ -7,11 +7,14 @@
       Feel free to drop us a line below!
     </span>
   </div>
-
-  <form class="contact100-form validate-form" method="POST" action="https://script.google.com/macros/s/AKfycbw64a_6GZtLrCv1PDvXbb6zDOZzUz0SvbyRxGOF/exec" >
+<!--  -->
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"     
+onload="if(submitted) {window.location='/home';}"> </iframe>
+  <form class="contact100-form validate-form" method="POST" action="https://script.google.com/macros/s/AKfycbw64a_6GZtLrCv1PDvXbb6zDOZzUz0SvbyRxGOF/exec" target="hidden_iframe" 
+  onsubmit="submitted=true;">
     <div class="wrap-input100 validate-input" data-validate="Name is required">
       <span class="label-input100">Full Name:</span>
-      <input class="input100" type="text" id="name" name="name" placeholder="Enter full name">
+      <input class="input100" type="text" id="name" name="name" placeholder="Enter full name" required>
       <span class="focus-input100"></span>
     </div>
 
@@ -23,7 +26,7 @@
 
     <div class="wrap-input100 validate-input" data-validate="Phone is required">
       <span class="label-input100">Phone:</span>
-      <input class="input100" type="text" name="phone" id="phone" placeholder="Enter phone number">
+      <input class="input100" type="text" name="phone" id="phone" placeholder="Enter phone number" required>
       <span class="focus-input100"></span>
     </div>
 
@@ -34,7 +37,7 @@
     </div>
 
     <div class="container-contact100-form-btn">
-      <button class="contact100-form-btn">
+      <button class="contact100-form-btn" (click)="submitForm()" >
         <span>
           Submit
           <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
