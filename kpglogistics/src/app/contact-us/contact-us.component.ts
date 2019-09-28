@@ -9,12 +9,13 @@ import {Location} from '@angular/common';
 export class ContactUsComponent implements OnInit {
 
   constructor(private location : Location) { }
-
+  public name:HTMLInputElement;
   ngOnInit() {
   }
   submitForm (){
-    let name = document.getElementById('name').value;
-    let phone = document.getElementById('phone').value;
+    var name =(<HTMLInputElement>document.getElementById("name")).value; 
+    var phone = (<HTMLInputElement>document.getElementById("phone")).value;
+
     if(name == '' && phone == ''){
       alert("Please Enter Name and Contact Number");
     } else if(name == '' && phone !== '') {
@@ -23,13 +24,9 @@ export class ContactUsComponent implements OnInit {
       alert("Please Enter Contact Number");
     }
     else{
-      alert("You have Succeessfully save your data. \n We will contact you soon.");
+      alert("Thank You Yo Contact Us. \n We will reach you soon.");
     }
     }
-    
-    //
-    //[routerLink]="['/home']" routerLinkActive="active" ;
-   // this._router.navigateByUrl('/user');
-   //this.location.back();
+  
   }
 
