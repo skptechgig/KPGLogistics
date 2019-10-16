@@ -24,7 +24,7 @@ export class ContactUsComponent implements OnInit {
       alert("Please Enter Contact Number");
     }
     else{
-      alert("Thank You Yo Contact Us. \n We will reach you soon.");
+      alert("Thank You to Contact Us. \n We will reach you soon.");
     }
     }
   

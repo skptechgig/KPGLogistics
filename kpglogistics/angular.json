@@ -136,5 +136,8 @@
       }
     }
   },
-  "defaultProject": "kpglogistics"
+  "defaultProject": "kpglogistics",
+  "cli": {
+    "analytics": false
+  }
 }
